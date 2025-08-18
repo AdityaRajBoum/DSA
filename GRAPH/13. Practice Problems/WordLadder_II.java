@@ -27,7 +27,7 @@ class Solution {
                 String curr = currPath.get(currPath.size() - 1);
 
                 if (curr.equals(endWord)) {
-                    int len = currPath.size(); 
+                    // int len = currPath.size(); 
                     found = true;
                      result.add(currPath);
                     // while (!q.isEmpty() && q.peek().size() == len) {
